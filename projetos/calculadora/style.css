@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+
+:root{
+    --fonte: "Reddit Mono", monospace;
+}
+
+*{
+    font-family: var(--fonte);
+}
+
+.calculadora{
+    display: grid;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.botao{
+    background: #fff;
+}
