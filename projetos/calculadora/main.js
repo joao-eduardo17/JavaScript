@@ -25,7 +25,27 @@ const apaga = document.querySelector("#apaga")
 const parenteses = document.querySelector("#parenteses")
 const resultado = document.querySelector("#resultado")
 
-// 
+// Funções de clique dos números
 n1.addEventListener("click", () => {
-    resultado.innerHTML = resultado.value + "1"
+    resultado.innerHTML += "1"
+})
+n2.addEventListener("click", () => {
+    resultado.innerHTML += "2"
+})
+
+
+
+
+
+
+
+
+// Função de clique das operações
+soma.addEventListener("click", () => {
+    let sent1 = resultado.value
+    console.log(sent1)
+    resultado.innerHTML += "+"
+})
+igual.addEventListener("click", () => {
+    resultado.innerHTML = "Hello World!"
 })
